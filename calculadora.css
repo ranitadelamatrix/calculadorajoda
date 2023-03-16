@@ -1,0 +1,27 @@
+#titulo{
+    color: red;
+    
+}
+#caja{
+    display: inline;
+    
+}
+#boton{
+    text-align: center;
+    margin-right: 280px;
+}
+#pagar{
+    display: inline;
+    text-align: center;
+    margin-right: 200px;
+    border: 2px, black;
+}
+body{
+    background: yellowgreen;
+}
+.celda{
+    width: 50px;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
