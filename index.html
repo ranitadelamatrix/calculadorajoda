@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculadora.css"/>
+</head>
+<body>
+    <h1 id="titulo">Calculos de gastos</h1>
+    <div id="caja">
+   <form id="formulario">
+    <label>Cantidad de personas</label><input type="number" id="personas" value="0"><br>
+    <label>Nombre:</label><input><label>gastos</label><input type="number" id="gastos1" value="0" class="celda"><label id="paga0"></label><br>
+    <label>Nombre:</label><input><label>gastos</label><input type="number" id="gastos2" value="0" class="celda"><label id="paga1"></label><br>
+    <label>Nombre:</label><input><label>gastos</label><input type="number" id="gastos3" value="0" class="celda"><label id="paga2"></label><br>
+    <label>Nombre:</label><input><label>gastos</label><input type="number" id="gastos4" value="0" class="celda"><label id="paga3"></label><br>
+    <label>Nombre:</label><input><label>gastos</label><input type="number" id="gastos5" value="0" class="celda"><label id="paga4"></label><br>
+    <label>Nombre:</label><input><label>gastos</label><input type="number" id="gastos6" value="0" class="celda"><label id="paga5"></label><br>
+   
+    <input type="button" value="calcular" id="boton" onclick="calcular()"><br>
+    <p id="pagar">Total a pagar cada uno:</p>
+</form>
+</div>
+</body>
+<script src="calculo.js"></script>
+</html>
